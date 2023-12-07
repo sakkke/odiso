@@ -34,6 +34,7 @@ function main {
     obs-studio
     plasma
     podman
+    sd
     sddm
     sudo
     xorg-drivers

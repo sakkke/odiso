@@ -10,4 +10,5 @@ alias ll='lsd -l'
 alias ls=lsd
 alias man=batman
 alias ping=gping
+alias sed=sd
 alias top=btm
