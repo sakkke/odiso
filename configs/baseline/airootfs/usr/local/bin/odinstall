@@ -99,12 +99,32 @@ with Installer(
 ) as installation:
 	installation.mount_ordered_layout()
 	installation.minimal_installation(hostname=hostname)
-	installation.add_additional_packages(['grub'])
+	installation.add_additional_packages([
+        'grub',
+        'kde-applications',
+        'micro',
+        'networkmanager',
+        'noto-fonts',
+        'noto-fonts-cjk',
+        'noto-fonts-emoji',
+        'noto-fonts-extra',
+        'plasma',
+        'sddm',
+        'xorg-drivers',
+        'xorg-server',
+    ])
 
 installation.genfstab()
 
 installation.arch_chroot('grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB --removable')
 installation.arch_chroot('grub-mkconfig -o /boot/grub/grub.cfg')
+
+enable_units = [
+    'NetworkManager.service',
+    'sddm.service',
+]
+for unit in enable_units:
+    installation.arch_chroot(f'systemctl enable {unit}')
 
 # Optionally, install a profile of choice.
 # In this case, we install a minimal profile that is empty

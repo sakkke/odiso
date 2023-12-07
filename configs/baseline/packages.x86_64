@@ -9,8 +9,11 @@ qemu-guest-agent
 syslinux
 virtualbox-guest-utils-nox
 
+amd-ucode
 archinstall
+base-devel
 dosfstools
+intel-ucode
 kde-applications
 linux-firmware
 micro
