@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- PS1: colored, replaced space to colon.
+- `PS1`: colored, replaced space to colon.
 - Username: `od` to `opend`.
 - Kernel: `linux` to `linux-zen`.
 - `profiledef.sh` and `etc/pacman.conf`.
