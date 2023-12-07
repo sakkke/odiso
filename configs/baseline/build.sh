@@ -10,6 +10,7 @@ function main {
     base
     base-devel
     chromium
+    fuse-overlayfs
     grub
     intel-ucode
     kde-applications
@@ -23,6 +24,7 @@ function main {
     noto-fonts-extra
     obs-studio
     plasma
+    podman
     sddm
     sudo
     xorg-drivers

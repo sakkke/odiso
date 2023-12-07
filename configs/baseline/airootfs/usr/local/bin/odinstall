@@ -101,6 +101,7 @@ with Installer(
 	installation.minimal_installation(hostname=hostname)
 	installation.add_additional_packages([
         'chromium',
+        'fuse-overlayfs',
         'grub',
         'kde-applications',
         'micro',
@@ -111,6 +112,7 @@ with Installer(
         'noto-fonts-extra',
         'obs-studio',
         'plasma',
+        'podman',
         'sddm',
         'xorg-drivers',
         'xorg-server',
