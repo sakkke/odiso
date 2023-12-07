@@ -9,6 +9,7 @@ from archinstall import disk
 from archinstall import models
 
 import os
+import subprocess
 
 device_path_value = os.getenv('DEVICE_PATH')
 if device_path_value is None:
@@ -148,6 +149,20 @@ enable_units = [
 ]
 for unit in enable_units:
     installation.arch_chroot(f'systemctl enable {unit}')
+
+copy_files = [
+    Path('etc/skel/.bash_aliases'),
+    Path('etc/skel/.bashrc'),
+    Path('etc/skel/.config/fontconfig/fonts.conf'),
+    Path('etc/skel/.config/i3/config'),
+    Path('etc/skel/.xsessionrc'),
+]
+for file in copy_files:
+    source_file = '/.' / file
+    dest_file = mountpoint / file
+
+    os.makedirs(dest_file.parent, exist_ok=True)
+    subprocess.run(['cp', str(source_file), str(dest_file)])
 
 # Optionally, install a profile of choice.
 # In this case, we install a minimal profile that is empty
