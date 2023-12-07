@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Colored PS1.
 - Username: `od` to `opend`.
+- `profiledef.sh`.
 
 ## [0.2.0+odiso] - 2023-12-07
 

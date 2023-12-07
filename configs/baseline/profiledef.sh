@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="archlinux-baseline"
-iso_label="ARCH_$(date +%Y%m)"
-iso_publisher="Arch Linux <https://archlinux.org>"
-iso_application="Arch Linux baseline"
+iso_name="opendistr-baseline"
+iso_label="OPEND_$(date +%Y%m)"
+iso_publisher="OpenDistr <https://example.com>"
+iso_application="OpenDistr baseline"
 iso_version="$(date +%Y.%m.%d)"
-install_dir="arch"
+install_dir="opend"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito' 'uefi-x64.systemd-boot.esp' 'uefi-x64.systemd-boot.eltorito')
 arch="x86_64"
