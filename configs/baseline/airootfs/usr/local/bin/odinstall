@@ -150,19 +150,20 @@ enable_units = [
 for unit in enable_units:
     installation.arch_chroot(f'systemctl enable {unit}')
 
-copy_files = [
+copy_paths = [
     Path('etc/skel/.bash_aliases'),
     Path('etc/skel/.bashrc'),
     Path('etc/skel/.config/fontconfig/fonts.conf'),
     Path('etc/skel/.config/i3/config'),
     Path('etc/skel/.xsessionrc'),
+    Path('usr/share/ollama/.ollama'),
 ]
-for file in copy_files:
-    source_file = '/.' / file
-    dest_file = mountpoint / file
+for path in copy_paths:
+    source_path = '/.' / path
+    dest_path = mountpoint / path
 
-    os.makedirs(dest_file.parent, exist_ok=True)
-    subprocess.run(['cp', str(source_file), str(dest_file)])
+    os.makedirs(dest_path.parent, exist_ok=True)
+    subprocess.run(['cp', '-r', str(source_path), str(dest_path)])
 
 # Optionally, install a profile of choice.
 # In this case, we install a minimal profile that is empty
