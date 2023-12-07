@@ -11,10 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - New user apps: Chromium, OBS Studio, and kitty.
 - New user commands: `bat`, `fd`, `lsd`, `delta`, `gping`, `dog`, `dust`, `btm`, `sd`, and `procs`.
-- New system apps: Podman.
-- New window managers: i3.
-- New enabled units: bluetooth.service.
-- New fonts: `ttf-jetbrains-mono-nerd`.
+- New system app: Podman.
+- New window manager: i3.
+- New enabled unit: bluetooth.service.
+- New font: `ttf-jetbrains-mono-nerd`.
 - `/etc/skel`: `.bashrc`, `.bash_aliases`, `.config/i3/config`, `.xsessionrc`, and `.config/fontconfig/fonts.conf`.
 
 ### Changed
