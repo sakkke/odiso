@@ -8,3 +8,7 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\[\e[1;32m\]\u@\h\[\e[m\] \[\e[1;34m\]\W\[\e[m\]]\$ '
+
+if [ -f ~/.bash_aliases ]; then
+  source ~/.bash_aliases
+fi
