@@ -101,6 +101,7 @@ with Installer(
 	installation.minimal_installation(hostname=hostname)
 	installation.add_additional_packages([
         'bat',
+        'bat-extras',
         'chromium',
         'fuse-overlayfs',
         'grub',

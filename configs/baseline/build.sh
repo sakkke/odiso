@@ -10,6 +10,7 @@ function main {
     base
     base-devel
     bat
+    bat-extras
     chromium
     fuse-overlayfs
     grub

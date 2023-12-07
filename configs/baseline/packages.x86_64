@@ -13,6 +13,7 @@ amd-ucode
 archinstall
 base-devel
 bat
+bat-extras
 chromium
 dosfstools
 fuse-overlayfs
