@@ -1,6 +1,5 @@
 base
 cloud-init
-linux
 mkinitcpio
 mkinitcpio-archiso
 openssh
@@ -32,6 +31,7 @@ intel-ucode
 kde-applications
 kitty
 linux-firmware
+linux-zen
 lsd
 micro
 networkmanager

@@ -96,7 +96,7 @@ mountpoint = Path('/mnt')
 with Installer(
 	mountpoint,
 	disk_config,
-	kernels=['linux']
+	kernels=['linux-zen']
 ) as installation:
 	installation.mount_ordered_layout()
 	installation.minimal_installation(hostname=hostname)

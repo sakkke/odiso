@@ -28,8 +28,8 @@ function main {
     intel-ucode
     kde-applications
     kitty
-    linux
     linux-firmware
+    linux-zen
     lsd
     micro
     networkmanager
