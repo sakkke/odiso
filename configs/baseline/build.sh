@@ -13,6 +13,7 @@ function main {
     bat-extras
     bluez
     bottom
+    breeze
     chromium
     dmenu
     dog
