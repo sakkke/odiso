@@ -18,6 +18,7 @@ chromium
 dosfstools
 fd
 fuse-overlayfs
+git-delta
 intel-ucode
 kde-applications
 linux-firmware

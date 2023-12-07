@@ -105,6 +105,7 @@ with Installer(
         'chromium',
         'fd',
         'fuse-overlayfs',
+        'git-delta',
         'grub',
         'kde-applications',
         'lsd',

@@ -14,6 +14,7 @@ function main {
     chromium
     fd
     fuse-overlayfs
+    git-delta
     grub
     intel-ucode
     kde-applications
