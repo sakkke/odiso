@@ -16,6 +16,7 @@ bat
 bat-extras
 bottom
 chromium
+dmenu
 dog
 dosfstools
 dust
@@ -23,6 +24,7 @@ fd
 fuse-overlayfs
 git-delta
 gping
+i3
 intel-ucode
 kde-applications
 linux-firmware

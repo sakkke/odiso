@@ -13,6 +13,7 @@ function main {
     bat-extras
     bottom
     chromium
+    dmenu
     dog
     dust
     fd
@@ -20,6 +21,7 @@ function main {
     git-delta
     gping
     grub
+    i3
     intel-ucode
     kde-applications
     linux
