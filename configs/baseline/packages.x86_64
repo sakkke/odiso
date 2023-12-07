@@ -15,6 +15,7 @@ base-devel
 bat
 bat-extras
 chromium
+dog
 dosfstools
 fd
 fuse-overlayfs

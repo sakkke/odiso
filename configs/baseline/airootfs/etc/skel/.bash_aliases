@@ -1,5 +1,6 @@
 alias cat=bat
 alias diff=batdiff
+alias dig=dog
 alias find=fd
 alias grep=batgrep
 alias l='lsd -F'

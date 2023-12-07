@@ -12,6 +12,7 @@ function main {
     bat
     bat-extras
     chromium
+    dog
     fd
     fuse-overlayfs
     git-delta
