@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Username: `od` to `opend`.
 - Kernel: `linux` to `linux-zen`.
 - `profiledef.sh` and `etc/pacman.conf`.
+- Boot entry names.
 
 ## [0.2.0+odiso] - 2023-12-07
 
