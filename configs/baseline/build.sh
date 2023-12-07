@@ -27,6 +27,7 @@ function main {
     i3
     intel-ucode
     kde-applications
+    kitty
     linux
     linux-firmware
     lsd

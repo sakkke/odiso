@@ -117,6 +117,7 @@ with Installer(
         'grub',
         'i3',
         'kde-applications',
+        'kitty',
         'lsd',
         'micro',
         'networkmanager',
