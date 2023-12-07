@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New user commands: `bat`, `fd`, `lsd`, `delta`, `gping`, `dog`, `dust`, `btm`, `sd`, and `procs`.
 - New system app: Podman.
 - New window manager: i3.
-- New enabled unit: bluetooth.service.
+- New enabled unit: `bluetooth.service`.
 - New font: `ttf-jetbrains-mono-nerd`.
 - `/etc/skel`: `.bashrc`, `.bash_aliases`, `.config/i3/config`, `.xsessionrc`, and `.config/fontconfig/fonts.conf`.
 - `.gitignore`.
