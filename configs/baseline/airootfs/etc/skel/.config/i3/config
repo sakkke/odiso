@@ -212,3 +212,6 @@ bar {
 # Please remove the following exec line:
 #######################################################################
 exec i3-config-wizard
+
+# set wallpaper
+exec --no-startup-id feh --bg-scale /usr/share/wallpapers/Next/contents/images/3840x2160.png
