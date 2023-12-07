@@ -102,6 +102,7 @@ with Installer(
 	installation.add_additional_packages([
         'bat',
         'bat-extras',
+        'bottom',
         'chromium',
         'dog',
         'dust',
