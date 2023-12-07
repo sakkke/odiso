@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Chromium, OBS Studio, and Podman.
+- `.bashrc`.
 
 ## [0.2.0+odiso] - 2023-12-07
 
