@@ -104,6 +104,7 @@ with Installer(
         'bat-extras',
         'chromium',
         'dog',
+        'dust',
         'fd',
         'fuse-overlayfs',
         'git-delta',
