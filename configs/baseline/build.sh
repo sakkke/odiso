@@ -19,6 +19,7 @@ function main {
     kde-applications
     linux
     linux-firmware
+    lsd
     micro
     networkmanager
     noto-fonts

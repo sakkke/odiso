@@ -107,6 +107,7 @@ with Installer(
         'fuse-overlayfs',
         'grub',
         'kde-applications',
+        'lsd',
         'micro',
         'networkmanager',
         'noto-fonts',
