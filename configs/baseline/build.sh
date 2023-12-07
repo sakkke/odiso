@@ -34,6 +34,7 @@ function main {
     obs-studio
     plasma
     podman
+    procs
     sd
     sddm
     sudo

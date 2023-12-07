@@ -122,6 +122,7 @@ with Installer(
         'obs-studio',
         'plasma',
         'podman',
+        'procs',
         'sd',
         'sddm',
         'xorg-drivers',
