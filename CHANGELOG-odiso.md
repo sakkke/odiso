@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New system apps: Podman.
 - New window managers: i3.
 - New enabled units: bluetooth.service.
-- `/etc/skel`: `.bashrc` and `.bash_aliases`.
+- `/etc/skel`: `.bashrc`, `.bash_aliases`, and `.config/i3/config`.
 
 ### Changed
 
