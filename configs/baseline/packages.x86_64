@@ -12,6 +12,7 @@ virtualbox-guest-utils-nox
 amd-ucode
 archinstall
 base-devel
+bat
 chromium
 dosfstools
 fuse-overlayfs

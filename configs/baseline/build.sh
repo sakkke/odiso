@@ -9,6 +9,7 @@ function main {
     amd-ucode
     base
     base-devel
+    bat
     chromium
     fuse-overlayfs
     grub
