@@ -18,6 +18,7 @@ function main {
     dog
     dust
     fd
+    feh
     fuse-overlayfs
     git-delta
     gping
