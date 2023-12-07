@@ -12,6 +12,7 @@ function main {
     bat
     bat-extras
     chromium
+    fd
     fuse-overlayfs
     grub
     intel-ucode

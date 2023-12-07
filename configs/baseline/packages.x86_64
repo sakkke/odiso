@@ -16,6 +16,7 @@ bat
 bat-extras
 chromium
 dosfstools
+fd
 fuse-overlayfs
 intel-ucode
 kde-applications

@@ -103,6 +103,7 @@ with Installer(
         'bat',
         'bat-extras',
         'chromium',
+        'fd',
         'fuse-overlayfs',
         'grub',
         'kde-applications',
