@@ -106,6 +106,7 @@ with Installer(
         'fd',
         'fuse-overlayfs',
         'git-delta',
+        'gping',
         'grub',
         'kde-applications',
         'lsd',

@@ -15,6 +15,7 @@ function main {
     fd
     fuse-overlayfs
     git-delta
+    gping
     grub
     intel-ucode
     kde-applications

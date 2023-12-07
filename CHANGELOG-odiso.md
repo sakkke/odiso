@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - New user apps: Chromium and OBS Studio.
-- New user commands: bat, fd, lsd, and delta.
+- New user commands: bat, fd, lsd, delta, and gping.
 - New system apps: Podman.
 - `/etc/skel`: `.bashrc` and `.bash_aliases`.
 
