@@ -9,6 +9,7 @@ function main {
     amd-ucode
     base
     base-devel
+    chromium
     grub
     intel-ucode
     kde-applications

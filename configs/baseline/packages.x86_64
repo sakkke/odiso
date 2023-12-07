@@ -12,6 +12,7 @@ virtualbox-guest-utils-nox
 amd-ucode
 archinstall
 base-devel
+chromium
 dosfstools
 intel-ucode
 kde-applications
