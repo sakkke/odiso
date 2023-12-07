@@ -44,6 +44,7 @@ function main {
     sd
     sddm
     sudo
+    ttf-jetbrains-mono-nerd
     xorg-drivers
     xorg-server
   )

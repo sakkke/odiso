@@ -131,6 +131,7 @@ with Installer(
         'procs',
         'sd',
         'sddm',
+        'ttf-jetbrains-mono-nerd',
         'xorg-drivers',
         'xorg-server',
     ])
