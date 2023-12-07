@@ -109,6 +109,7 @@ with Installer(
         'noto-fonts-cjk',
         'noto-fonts-emoji',
         'noto-fonts-extra',
+        'obs-studio',
         'plasma',
         'sddm',
         'xorg-drivers',

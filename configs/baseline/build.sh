@@ -21,6 +21,7 @@ function main {
     noto-fonts-cjk
     noto-fonts-emoji
     noto-fonts-extra
+    obs-studio
     plasma
     sddm
     sudo
