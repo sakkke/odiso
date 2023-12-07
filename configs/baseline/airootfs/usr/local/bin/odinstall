@@ -102,6 +102,7 @@ with Installer(
 	installation.add_additional_packages([
         'bat',
         'bat-extras',
+        'bluez',
         'bottom',
         'chromium',
         'dmenu',
@@ -138,6 +139,7 @@ installation.arch_chroot('grub-mkconfig -o /boot/grub/grub.cfg')
 
 enable_units = [
     'NetworkManager.service',
+    'bluetooth.service',
     'sddm.service',
 ]
 for unit in enable_units:

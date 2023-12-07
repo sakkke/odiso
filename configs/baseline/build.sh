@@ -11,6 +11,7 @@ function main {
     base-devel
     bat
     bat-extras
+    bluez
     bottom
     chromium
     dmenu
