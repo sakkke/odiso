@@ -26,6 +26,7 @@ function main {
     grub
     i3
     intel-ucode
+    julia
     kde-applications
     kitty
     linux-firmware

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- New user app: Julia.
+
 ## [0.3.0+odiso] - 2023-12-08
 
 ### Added

@@ -117,6 +117,7 @@ with Installer(
         'gping',
         'grub',
         'i3',
+        'julia',
         'kde-applications',
         'kitty',
         'lsd',
