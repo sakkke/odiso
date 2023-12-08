@@ -46,6 +46,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - First changes.
 
 [unreleased]: https://github.com/sakkke/odiso/compare/v0.3.0+odiso...HEAD
-[0.3.0+odiso]: https://github.com/sakkke/odiso/releases/tag/v0.3.0+odiso
-[0.2.0+odiso]: https://github.com/sakkke/odiso/releases/tag/v0.2.0+odiso
+[0.3.0+odiso]: https://github.com/sakkke/odiso/compare/v0.2.0+odiso...v0.3.0+odiso
+[0.2.0+odiso]: https://github.com/sakkke/odiso/compare/v0.1.0+odiso...v0.2.0+odiso
 [0.1.0+odiso]: https://github.com/sakkke/odiso/releases/tag/v0.1.0+odiso
