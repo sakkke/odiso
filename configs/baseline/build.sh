@@ -21,7 +21,9 @@ function main {
     fd
     feh
     fuse-overlayfs
+    git
     git-delta
+    git-lfs
     gping
     grub
     i3
