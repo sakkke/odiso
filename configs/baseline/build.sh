@@ -39,6 +39,7 @@ function main {
     noto-fonts-emoji
     noto-fonts-extra
     obs-studio
+    ollama
     plasma
     podman
     procs

@@ -128,6 +128,7 @@ with Installer(
         'noto-fonts-emoji',
         'noto-fonts-extra',
         'obs-studio',
+        'ollama',
         'plasma',
         'podman',
         'procs',
@@ -146,6 +147,7 @@ installation.arch_chroot('grub-mkconfig -o /boot/grub/grub.cfg')
 enable_units = [
     'NetworkManager.service',
     'bluetooth.service',
+    'ollama.service',
     'sddm.service',
 ]
 for unit in enable_units:
