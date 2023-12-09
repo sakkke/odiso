@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - New user app: Julia.
 
+### Changed
+
+- Hostname in ISO.
+
 ## [0.3.0+odiso] - 2023-12-08
 
 ### Added
